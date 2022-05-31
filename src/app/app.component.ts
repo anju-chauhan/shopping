@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  constructor() {
+  }
   title = 'shopping';
+  name:any;
+  submit(){
+    console.log('hhhhhhhhhhh');
+    console.log('name', 'anju');
+
+  }
 }
